@@ -45,11 +45,22 @@ button.addEventListener("click", function(){
     let row = table.deleteRow(1);
 });*/
 
-let btn = document.getElementById("knapp");
+/*let btn = document.getElementById("knapp");
 btn.addEventListener("click", function () {
     let w = innerWidth;
     let h = innerHeight;
     document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
-});
+});*/
+/*document.body.onresize = () =>{
+    window.innerWidth;
+    window.innerHeight;
+    console.log(innerWidth, innerHeight);
+};*/
+/*let btn = document.getElementById("submitknapp");
+let input = document.getElementById("mininput");
+btn.addEventListener("click", function () {
+    console.log(mininput.getAttribute("value"));
+    console.log(mininput.value);
+});*/
 
 
