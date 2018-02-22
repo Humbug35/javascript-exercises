@@ -5,6 +5,11 @@ let messages = [];
 
 button.addEventListener("click", function () {
     messages.push({ message: message.value });
-    output.innerText = message.value;
+    output.innerHTML = "";
+    for(let message of messages){
+        output.innerHTML += `Your messages: 
+        <p>${message.message}</p>
+        `;
+    }
     message.value = "";
 });
